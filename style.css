@@ -2,36 +2,33 @@ header{
     text-align: center;
     background-color: #EEEEAA;
     font-family: 'Roboto', sans-serif;
-    font-style: italic;
     font-size: 20px;
-    padding: 1em;
-}
-h2{
-    padding: 10px;
-    text-align: center;
-    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1em;
+    width: 550px;
 }
 body {
+    background-image: url(images/stars.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #957DAD;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
 }
 table{
     margin: auto;
     border-collapse: collapse;
 }
-
 th{
     color: white;
 }
 td {
     border: 2px solid white;
-    background-color: #957DAD;
+    background-color: #ffcbb3;
     border-collapse: collapse;
     color: white;
-    padding: 6px;
-
+    padding: 30px;
 }
 .center {
     display: block;
@@ -40,13 +37,12 @@ td {
     width: 80%;
 }
 footer {
-    font-size: 15px;
-    padding: 5em;
+    font-size: 25px;
+    padding: 10em;
     color: white;
     clear: left;
     text-align: center;
 }
-
 a {
     color:White;
     font-weight: bold;
